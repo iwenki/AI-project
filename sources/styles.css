@@ -43,6 +43,7 @@ form{
   color:rgb(117, 63, 36);
   border:1px solid rgb(97, 81, 72);
   border-color: #040404;
+  font-family:'Philosopher', sans-serif;
 }
 .button-box{
   border-radius: 10px;
@@ -53,8 +54,9 @@ form{
   color:#05010c;
   padding: 8px 5px;
   box-shadow: 10px 8px 10px rgba(16, 16, 16, 0.2);
+  font-family: 'Philosopher', sans-serif;;
 }
-p{
+#quote{
   font-family: 'Courgette', cursive;
   font-size:20px;
   line-height: 1.5;
