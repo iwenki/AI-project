@@ -8,8 +8,9 @@ video {
   left: 0;
   min-height: 100%;
   z-index:-100;
-  width: 100vw;
-  opacity: .4;
+  max-width: 100%;
+  display:block;
+  margin:auto;
 }
 .container{
   max-width:800px;
@@ -56,13 +57,38 @@ form{
   box-shadow: 10px 8px 10px rgba(16, 16, 16, 0.2);
   font-family: 'Philosopher', sans-serif;;
 }
+.hint{
+  font-size:13px;
+  opacity:0.7;
+}
 #quote{
   font-family: 'Courgette', cursive;
   font-size:20px;
   line-height: 1.5;
   color:rgb(117, 63, 36);
 }
+.focus{
+  font-weight: 700;
+}
 footer{
   margin-bottom: 10px;
   font-size: 15px;
+}
+@media(max-width:500px){
+  h1{
+    font-size:30px;
+  }
+  h5{
+    font-size:18px;
+  }
+  .button-box{
+    margin:10px 0;
+  }
+  .text-box{
+    width:100%;
+  }
+  #quote{
+    font-size:17px;
+    text-align: center;
+  }
 }
