@@ -57,6 +57,9 @@ form{
   box-shadow: 10px 8px 10px rgba(16, 16, 16, 0.2);
   font-family: 'Philosopher', sans-serif;;
 }
+.hidden{
+  display:none;
+}
 .hint{
   font-size:13px;
   opacity:0.7;

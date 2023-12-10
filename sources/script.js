@@ -5,6 +5,7 @@ function generateQuote(event){
   event.preventDefault();
   let userFeedback=document.querySelector(".text-box");
   let quoteBox=document.querySelector("#quote");
+  quoteBox.classList.remove("hidden");
   quoteBox.innerHTML = `<i class="fa-regular fa-hourglass-half fa-spin" style="color: #AD622A;"></i> Generating quote about ${userFeedback.value}`;
   let apiKey = "cbc90ba0a21t28a990f44b7f6f3ea68o";
   let context =
