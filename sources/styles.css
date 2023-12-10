@@ -1,9 +1,65 @@
+body{
+  background-color: #C19EF9;
+  
+}
 video {
   position: absolute;
   top: 0;
   left: 0;
   min-height: 100%;
   z-index:-100;
-  min-width: 100%;
+  width: 100vw;
+  opacity: .4;
 }
-
+.container{
+  max-width:800px;
+  margin:25px auto;
+}
+h1{
+  text-align: center;
+  margin-bottom: 15px;
+  font-family: 'Philosopher', sans-serif;
+  line-height: 1.5;
+  font-size: 50px;
+  color: #AD622A;
+  font-weight: 800;
+}
+h5, footer{
+  font-family: 'Philosopher', sans-serif;
+  text-align: center;
+}
+h5{
+  font-size:25px;
+}
+form{
+  padding: 5px;
+}
+.text-box{
+  width:75%;
+  border-radius: 10px;
+  margin-top: 10px;
+  line-height: 30px;
+  font-size: 18px;
+  color:rgb(117, 63, 36);
+  border:1px solid rgb(97, 81, 72);
+}
+.button-box{
+  border-radius: 10px;
+  width:90px;
+  margin-left: 10px;
+  background: rgb(11, 11, 11);
+  border:none;
+  color:#ffff;
+  padding: 8px 5px;
+  box-shadow: 10px 8px 10px rgba(16, 16, 16, 0.2);
+}
+p{
+  font-family: 'Courgette', cursive;
+  font-size:20px;
+  line-height: 1.5;
+  color:rgb(117, 63, 36);
+}
+footer{
+  margin-bottom: 10px;
+  font-size: 15px;
+}
