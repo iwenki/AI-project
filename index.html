@@ -7,6 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Philosopher:wght@400;700&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   <link rel="stylesheet" href="sources/styles.css"/>
   <title>Quote of the day generator</title>
 </head>
@@ -20,12 +21,12 @@
   <img src="images/book cover.png" class="card-img-top img-fluid" alt="leather-bound books" title="Fantasy book atmosphere">
   <div class="card-body">
     <h5 class="card-title">Start or end your day with a quote from a fantasy fiction novel</h5>
-    <form>
+    <form id="form-container">
       <input type="text" placeholder="Enter an adjective to describe the quote you want" autofocus required autocomplete="off" class="text-box"/>
       <input type="submit" class="button-box"/>
     </form>
   </br>
-    <p class="card-text">Here is where the novel quote will go</p>
+    <p class="card-text" id="quote"></p>
   </div>
 </div>
 <footer>This project was coded by <a href="www.linkedin.com/in/vanessa-iwen-040831173" target="_blank" title="LinkedIn profile" >K. Vanessa Iwen </a> and is open-sourced on <a href="https://github.com/iwenki/AI-project" target="_blank" title="GitHub profile of K. Vanessa Iwen">GitHub</a></footer>

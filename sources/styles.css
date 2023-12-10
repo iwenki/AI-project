@@ -42,14 +42,15 @@ form{
   font-size: 18px;
   color:rgb(117, 63, 36);
   border:1px solid rgb(97, 81, 72);
+  border-color: #040404;
 }
 .button-box{
   border-radius: 10px;
   width:90px;
   margin-left: 10px;
-  background: rgb(11, 11, 11);
+  background: #DAC5FB;
   border:none;
-  color:#ffff;
+  color:#05010c;
   padding: 8px 5px;
   box-shadow: 10px 8px 10px rgba(16, 16, 16, 0.2);
 }
